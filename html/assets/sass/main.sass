@@ -1,0 +1,24 @@
+@import "variables"
+@import "0-base/base-dir"
+@import "1-layouts/layouts-dir"
+@import "2-modules/modules-dir"
+
+.background
+  position: fixed
+  width: 100%
+  height: 100%
+  left: 0
+  top: 0
+  background-image: url('../img/background.jpg')
+  background-size: cover
+  z-index: -10
+
+.home
+  background-color: white
+  width: 60%
+  margin: 2.5em auto
+  padding: 1em
+  border: 0.0625em solid $border-color
+  border-radius: $border-radius
+  a
+    display: block
